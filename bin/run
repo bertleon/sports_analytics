@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# run
+export FLASK_APP=sports_analytics
+export SPORTS_ANALYTICS_SETTINGS=config.py
+flask run 
